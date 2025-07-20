@@ -1,0 +1,118 @@
+
+/* 
+    Created on : 31 May, 2023, 9:57:02 PM
+    Author     : AnkushCp
+*/
+
+@media print {
+    .reciept_contain .reciept{
+
+     background: #dfdcd891;
+    margin: auto;
+    border-radius: 13px;
+    margin-top: 48px;
+    padding: 57px;
+}
+@page {size: landscape}
+}
+.reciept_contain{
+    display: flex;
+}
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #488949; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #82bc74; 
+  }
+.reciept_contain .reciept{
+
+     background: #dfdcd891;
+    margin: auto;
+    border-radius: 13px;
+    margin-top: 48px;
+    padding: 57px;
+}
+marquee{
+           font-weight: bold;
+    font-family: poppins;
+    color: black;
+    background: linear-gradient(142deg, #7ed078f2 34.68%, #43b4b3 64.89%);
+}
+
+  .reciept_contain .reciept .fline{
+    display: flex ;
+  }
+.reciept_contain .reciept .fline h1{
+ color:#022137;
+    padding: 10px;
+    font-size: 15px;
+    font-family: poppins;
+    font-weight: bold;
+}
+p{
+font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    font-size: 14px;
+    color: #2fb94e;
+    font-weight: bold;
+    align-self: center;
+}
+.butt{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.butt button{
+border: none;
+    background: #59bc42;
+    border-radius: 19px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: black;
+    width: 95px;
+    padding: 4px;
+    margin-top: 12px;
+}
+.bookc{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin:76px;
+}
+.bookc .boc{
+    display: flex;
+    width: 500px;
+    margin: auto;
+    justify-content: center;
+}
+.bookc .boc .img1{
+    width: 234px;
+}
+.bookc .boc .img2{
+    width: 57px;
+}
+.thead{
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Roboto';
+}
+.thead h1{
+    padding: 24px;
+    background-color: #59bc42;
+}
+   

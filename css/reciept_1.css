@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31 May, 2023, 9:57:02 PM
+    Author     : AnkushCp
+*/
+
+.reciept_contain{
+    display: flex;
+}
+.reciept_contain .reciept{
+
+    margin: auto;
+    margin-top: 48px;
+}
+.reciept_contain .reciept .fline{
+    display: flex;
+}
+.reciept_contain .reciept .fline h1{
+    color: black;
+    padding: 10px;
+}
+p{
+    padding: 10px;
+}::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #488949; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #82bc74; 
+  }

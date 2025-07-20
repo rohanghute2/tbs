@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+    <html lang='en'>
+    <head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <title>Document</title>
+        <link rel='preconnect' href='https://fonts.googleapis.com'>
+        <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+        <link href='https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap' rel='stylesheet'>
+
+       <style>
+.reciept_contain {
+    /* display: flex;  */
+    height: auto;
+    text-align: -webkit-center;
+    padding: 20px;
+    background: white;
+    background-size: 400% 100%;
+    box-sizing: border-box;
+    /* justify-content: center; */
+    border-radius: 0 0 10px 10px;
+}
+
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+  
+
+.reciept {
+    background: #4e944f;
+    border-radius: 15px;
+    padding: 40px;
+    /* text-align: inherit; */
+    max-width: 600px;
+    width: auto;
+    transition: all 0.2s;
+}
+
+.thead{
+    text-align: center;
+    height: 39px;
+    border: 0 0 1 4px;
+    border-right: 2px solid #4e944f;
+    border-left: 2px solid #4e944f;
+    margin-bottom: 3px;
+}
+.thead img {
+    width: 214px;
+    margin: 5px 0px 0px 0px;
+
+}
+
+
+#marq {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #4e944f;
+    background: #ffffff;
+    padding: 10px;
+    margin: 0px 0px 3px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+.fline {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    animation: fadeIn 1s ease-in;
+    flex-wrap: wrap;
+}
+
+.fline h1 {
+    font-family: math;
+    color: #1b1c16;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    margin-right: 10px;;
+}
+
+p {
+    font-family: monospace;
+    font-size: 15px;
+    color: #e9efc0;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Button */
+.butt button {
+    background: #33FF89;
+    color: #155799;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.butt button:hover {
+    background: #2CD278;
+    color: #fff;
+}
+
+/* Book Icon */
+.bookc {
+    text-align: center;
+    margin-top: 40px;
+    animation: bounce 2s ease infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Footer */
+h4 {
+    color: #333;
+    text-align: center;
+    font-size: 14px;
+    font-family: cursive;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+/* -------------------Media Query for Turf booking -------------------------------- */
+@media (max-width: 480px){
+    .reciept_contain {
+        height: auto; /* Adjust height as needed for smaller screens */
+    }
+
+    .reciept {
+        padding-left: 21px;
+        width: auto;
+        border-radius: 0;
+    }
+    .fline h1 {
+        font-family: math;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        margin: 0;
+        margin-right: 10px;
+    }
+}
+ 
+       </style>
+    </head>
+    <body><p id='marq'>* Note: Show the receipt to the turf; it is valid until the booking date.</p>
+    <div class='thead'>
+        <img src='https://studify-edu.info/wp-content/uploads/2023/11/logo.png' alt='turf-booking'>
+</div>
+    <div class='reciept_contain'>
+    <div class='reciept'>
+        <div class='fline'>
+            <H1>Name : </H1>
+            <p>$username</p>
+        </div>
+        <div class='fline'>
+            <h1>Email : </h1>
+            <p>ankupagar3588@gmail.com</p>
+        </div>
+        <div class='fline'>
+            <h1>Address : </h1>
+            <p>$address</p>
+        </div>
+        <div class='fline'>
+            <h1>Price : </h1>
+            <p> $price</p>
+        </div>
+        <div class='fline'>
+            <h1>Location : </h1>
+            <p>$location </p>
+        </div>
+        <div class='fline'>
+            <h1>Time : </h1>
+            <p> $time</p>
+        </div>
+        <div class='fline'>
+            <h1>Time period : </h1>
+            <p> $tp </p>
+        </div>
+    </div>
+</div>
+<h4>All rights are reserved by Turf-Booking.in @2023</h4><body></html>

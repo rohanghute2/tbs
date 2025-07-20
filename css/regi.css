@@ -1,0 +1,342 @@
+
+/* 
+    Created on : 27 May, 2023, 10:36:36 PM
+    Author     : AnkushCp
+*/
+  @import url('https://fonts.googleapis.com/css2?family=Lora&family=Raleway:wght@300&family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Raleway', sans-serif; */
+    /* color: rgb(73 194 49); */
+    font-size: 15px;
+}
+body{
+    background-color: #B4E197;
+}
+.heading{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.heading h1{
+    font-family: lora;
+    font-size: 30px;
+    margin-top: 39px;
+
+}
+.header{
+display: flex;
+width: 100%;
+padding: 21px;
+}
+.header .left_header{
+
+    width: 50%;
+}
+.header .left_header img{
+    width: 30%;
+}
+.header .right_header{
+
+    width:50%;
+    display:flex;
+}
+.header .right_header .menu{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    padding-right: 56px;
+}
+.header .right_header .menu li{
+    
+    list-style: none;
+    padding-left: 56px;
+}
+.header .right_header .menu li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Lora';
+    font-size: 15px;
+    font-weight: bold;
+}
+.header .right_header .menu li a:hover{
+    text-decoration: none;
+    color: rgb(120, 192, 39);
+    font-size: 15px;
+    font-weight: bold;
+}
+.form_container{
+    width: 100%;
+justify-content: center;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.form_container form{
+    margin-top: 25px;
+    border-radius: 11px;
+    width: 629px;
+    /* height: 364px; */
+    padding: 40px;
+    padding-inline: 10px;
+    text-align: center;
+    backdrop-filter: blur(4px);
+    background: rgb(205 241 215 / 71%);
+
+}
+.form_container .login_form{
+    margin-top:50px ;
+    border-radius: 11px;
+    width: 400px;
+    height: 359px;
+    padding: 40px;
+    padding-inline: 10px;
+    text-align: center;
+    background: rgba(205, 241, 215, 0.49);
+}
+.form_container form .field{
+    padding: 7px;
+    margin: 9px;
+    width: 242px;
+    border-radius: 6px;
+    border: solid 1px #a9a1a1;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: lora;
+}
+.form_container form .curr_city{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding: 7px;
+    margin: 9px;
+    font-family: lora;
+    width: 242px;
+    border-radius: 6px;
+    border: solid 1px #a9a1a1;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+}
+.form_container form .curr_city option{
+    color: rgb(45, 202, 30);
+    font-size: 15px;
+    font-family: lora;
+    font-weight: bold;
+}
+.form_container form .register{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    width: 123px;
+    background: #83bd75;
+    color: #E9EFC0;
+    transition:all 0.7s;
+}
+.form_container form .register:hover{
+
+    width: 226px;
+
+    background: #4e944f;
+    color: #E9EFC0;
+}
+.ground{
+    width: 100%;
+}
+.ground img{
+    z-index: -22;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.form_container form h1{
+    font-family: 'Raleway';
+    margin-top: 22px;
+    color:black;
+}
+.form_container form h1 a {
+    color: #3686eb;
+}
+
+.ec .img1{
+    top: 67px;
+    position: absolute;
+    z-index: -3;
+    right: 0;
+    width: 437px;
+    animation-name: motions;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    transition: all 0.3s ease;
+}
+ .ec .img2{
+    position: absolute;
+    right: 0;
+ 
+
+    top: 92px;width: 393px;
+    animation-name: motions1;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    transition: all 0.3s ease;
+}
+ .ec .img3{
+    position: absolute;
+    right: 0;
+
+
+    top: 128px;
+    width: 353px;
+    animation-name: motions2;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    transition: all 0.3s ease;
+}
+/* @keyframes motions {
+    0% {width: 400px;}
+    25%{width: 450px;}
+    50%{width: 400px;}
+    75%{width: 450px;}
+    100%{width: 400px;}
+
+    
+}
+@keyframes motions1 {
+    0% {width: 360px;}
+    25%{width: 393px;}
+    50%{width: 360px;}
+    75%{ width: 393px;}
+    100%{width: 360px;}
+    
+}
+@keyframes motions2 {
+    0% {    width: 320px;}
+   20%{width: 344px;}
+   50%{width: 320px;}
+    75%{    width: 344px;}
+    100%{width: 320px;}
+    
+} */
+.ed .img1{
+    z-index: -3;
+    position: absolute;
+    left: 0;
+    width: 560px;
+    animation-name: motio;
+    animation-duration: 4s;
+    animation-delay: 1s;
+
+    animation-iteration-count: 1;
+    transition: all 0.3s ease-in-out;
+}
+.ed .img2{
+    position: absolute;
+
+
+    left: 92px;
+    top: 492px;
+    width: 358px;
+    animation-name: motio1;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count:1 ;
+    transition: all 0.3s ease-in-out;
+}
+.ed .img3{
+  
+
+    width: 236px;
+    position: absolute;
+    left: 153px;
+    top: 553px;
+    animation-name: motio2;
+    animation-duration:4s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 480px){ 
+    .header .right_header .menu li {
+        padding-left: 21px;
+    }
+    .header .right_header .menu li a {
+        font-size: 13px;
+        font-family: lora;
+    }
+    .header .left_header img {
+        width: 49%;
+    }
+    .header .right_header .menu {
+        padding-right: 18px;
+    }
+ 
+    .form_container {
+        width: 100%;
+        display: block;
+        text-align: -webkit-center;
+        margin: auto;
+        align-items: center;
+    }
+    .form_container form {
+        width: auto;
+        margin: 48px;
+    }
+
+    .ec .img1,.ed .img1,.ed .img2,.ed .img3{display: none;}
+    .ec .img2{ display: none; } 
+    .ec .img3{ display: none; }
+}
+/* @keyframes motio {
+    0% {width: 560px;}
+    25%{width: 530px;}
+    50%{width: 560px;}
+    75%{width: 530px;}
+    100%{width: 560px;}
+
+    
+}
+@keyframes motio1 {
+    0% {width: 358px;}
+    25%{width: 328px;}
+    50%{width: 358px;}
+    75%{ width: 328px;}
+    100%{width: 358px;}
+    
+}
+@keyframes motio2 {
+    0% {    width: 236px;}
+   20%{width: 206px;}
+   50%{width: 236px;}
+    75%{    width: 206px;}
+    100%{width: 236px;}
+    
+} */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #488949; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #82bc74; 
+  }

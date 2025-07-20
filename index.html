@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/tbs.png">
+    
+    <title>Homepage</title>
+    <link rel="stylesheet" href="css/new_home.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="firstc">
+        <header>
+          <div class="lhead">
+            <a href="index.html"><img src="images/logo1.png" alt="" /></a>
+          </div>
+          <div class="rhead">
+            <div class="menu">
+              <li><a href="register.php">Register</a></li>
+              <li><a href="login.php">Login</a></li>
+              <li><a href="about.html">About</a></li>
+            </div>
+          </div>
+        </header>
+        <div class="elements">
+          <img class="img1" src="images/Ellipse 45.png" alt="" />
+          <img class="img2" src="images/Ellipse 44.png" alt="" />
+          <img class="img3" src="images/Ellipse 46.png" alt="" />
+        </div>
+        <div class="blur_ele">
+          <h1>Your Gateway to the Perfect <span>Pitch</span></h1>
+          <p>
+            A warm welcome to Turf.com, the premier destination for booking
+            sports and recreational turf facilities.
+          </p>
+        </div>
+        <div class="small_c">
+          <div class="fc">
+            <p>
+              Here you can Watch some popular and well-maintained turf
+              facilities.
+            </p>
+            <button onclick="redirectToSignup()">Get Started</button>
+          </div>
+          <div class="fc">
+            <p>
+              Use our intuitive search feature to find and book the perfect turf
+              field for your needs.
+            </p>
+            <button onclick="redirectToTurf()">View Turf</button>
+          </div>
+        </div>
+      </div>
+      <div class="sec" id="second">
+        <div class="secf">
+          <h1>One <span>Platform</span> to search all turf make it easier</h1>
+          <p>
+            Discover the advantages of using TurfBookingPro, including
+            convenience, reliability, and a vast network of trusted turf
+            providers.
+          </p>
+          <button onclick="redirectToTurf()">Search turf</button>
+        </div>
+        <div class="secs">
+          <img src="images/sapiens 1.png" alt="" />
+        </div>
+      </div>
+
+      <div class="thirds" id="third">
+        <div class="thirdsf"><img src="images/sapiens.png" alt="" /></div>
+        <div class="thirdss">
+          <h1>
+            <span>Owner</span> can create there existence through our platform
+          </h1>
+          <p>
+            Our step-by-step guide walks you through the process of searching
+            for, selecting, and booking a turf facility, ensuring a smooth
+            experience.
+          </p>
+          <button onclick="redirectToOwner()">Owner Signup</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="f">
+        <div class="socio">
+          <a href="https://www.linkedin.com/in/ankush-chourpagar-091740210/"
+            ><img src="images/Vector.png" alt=""
+          /></a>
+          <a href="https://www.linkedin.com/in/ankush-chourpagar-091740210/">
+            <img src="images/linkedin.png" alt=""
+          /></a>
+          <a href="https://instagram.com/jayy_kadam?igshid=YTQwZjQ0NmI0OA=="
+            ><img src="images/instagram.png" alt=""
+          /></a>
+          <a href="https://instagram.com/jayy_kadam?igshid=YTQwZjQ0NmI0OA=="
+            ><img src="images/facebook.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="s"><p>All Copyrights are reserved by turf.com</p></div>
+      <div class="t">
+        <menu>
+          <li><a href="login.php">SignIn</a></li>
+          <li><a href="register.php">Signup</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="privacypolicy.html">Privacy Policy</a></li>
+        </menu>
+      </div>
+    </footer>
+    <script>
+      function redirectToOwner() {
+        window.location.href = "Owner/index.php";
+      }
+      function redirectToSignup() {
+        window.location.href = "register.php";
+      }
+      function redirectToTurf() {
+        window.location.href = "Turfs.php";
+      }
+    </script>
+  </body>
+</html>

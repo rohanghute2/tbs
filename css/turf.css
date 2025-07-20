@@ -1,0 +1,192 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 May, 2023, 12:56:17 AM
+    Author     : AnkushCp
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Raleway:wght@300&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kadwa&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #488949; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #82bc74; 
+  }
+.gal_contain{
+    display: flex;
+    justify-content: center;
+}
+.gall_turfs{
+    display: flex;
+    border-top: 1px solid green;
+    /* display: flex; */
+    justify-content: center;
+    width: 76%;
+    /* float: left; */
+    overflow: auto;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto;
+    /* justify-items: center; */
+    align-items: end;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.gall_turfs .turf_contain{
+    text-align: center;
+    margin: 21px;
+    height: 218px;
+    width: 218px;
+    background: #cdf1d7cc;
+    backdrop-filter: blur(2px);
+    padding: 13px;
+    border-radius: 7px;
+    animation: ease-in-out;
+    transition-delay: 0.2s;
+    transition-duration: 0.2s;
+}
+
+.gall_turfs .turf_contain:hover {
+    box-shadow: 0px 0px 15px 1px #4a7b09;
+}
+.gall_turfs .turf_contain .city{
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 5px;
+    border-bottom: 1px solid green;;
+}
+.gall_turfs .turf_contain .add{
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: lora;
+    margin-top: 12px;
+    margin-bottom: 18px;
+
+}
+
+.gall_turfs .turf_contain strong{
+
+    border-radius: 10x;
+    padding: 9px;
+    color: black;
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+}
+.gall_turfs .turf_contain .but_contain{
+    display: flex;
+    justify-content: center;
+    margin-top: 19px;
+}
+.gall_turfs .turf_contain .but_contain .but{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    bottom: 15px;
+    width: 103px;
+    font-family: 'Poppins';
+
+    background: #83bd75;
+    color: #E9EFC0;
+    transition: all 0.7s;
+}
+.gall_turfs .turf_contain .but_contain .but:hover{
+    background: #4e944f;
+    color: #E9EFC0;
+    width: 150px;
+}
+.center_contain1{
+display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+
+}
+.center_contain1 .center_contain2{
+        margin-top: 50px;
+    width: 67%;
+    text-align: center;       
+    margin-bottom: 50px;
+    
+}
+.center_contain1 .center_contain2 h3 b{
+    font-family: kadwa;
+    color: #4d924e;
+    font-size: 25px;
+
+}
+.center_contain1 .center_contain2 p{
+    font-family: lora;
+}
+.fillf{
+    padding: 12px;
+    text-align: -webkit-center;
+}
+.fillf select{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Poppins';
+    width: 151px;
+    color: white;
+    background: #559954;
+
+}
+.fillf input[type="date"]{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Poppins';
+    width: 151px;
+    color: white;
+    background: #559954;
+
+}
+.fillf input[type="submit"] {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid #559954;
+    font-family: 'Poppins';
+    width: 151px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    background: #cdf1d7cc;
+    backdrop-filter: blur(2px);
+    transition: all 0.3s ease;
+}
+.fillf input[type="submit"]:hover{
+    border: 2px solid #e9ffdb;
+
+    background: #ffffff54;
+    backdrop-filter: blur(2px);
+}

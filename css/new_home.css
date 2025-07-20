@@ -1,0 +1,585 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans&family=Raleway:wght@300&family=Roboto:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #488949; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #82bc74; 
+  }
+.container{
+    background-color: #B4E197;
+    width: 100%;
+    height: 100%;
+}
+.container .firstc{
+    position: relative;
+    background-color: #E9EFC0;
+    width: 100%;
+    height: 788px;
+
+
+}
+.container .firstc header{
+    position: relative;
+    display: flex;
+    z-index: 1;
+    width: 100%;
+
+}
+.container .firstc header .lhead{
+    display: flex;
+    padding: 33px;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: row;
+
+}
+.container .firstc header .lhead img{
+    max-width: 230px;
+}
+.container .firstc header .rhead{
+    display: flex;
+    /* align-self: center; */
+    width: 50%;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+.container .firstc header .rhead .menu{
+    padding: 13px;
+    position: absolute;
+    display: flex;
+    right: 20px;
+}
+.container .firstc header .rhead .menu li{
+    font-family: lora;
+    list-style: none;
+    margin-left: 70px;
+
+}
+
+.container .firstc header .rhead .menu li a{
+    text-decoration: none;
+    color: #488949;
+    cursor: pointer;
+}
+.container .firstc header .rhead .menu li a:hover{
+    color: #82bc74;
+    }
+.container .firstc .elements{
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+}
+@keyframes motions {
+    0% {max-width: 630px;}
+    33.33%{max-width: 600px;}
+    66.33%{max-width: 630px;}
+    100%{max-width: 600px;}
+
+    
+}
+@keyframes motions1 {
+    0% {    max-width: 555px;    }
+    33.33%{max-width: 525px;}
+    66.33%{max-width: 555px;}
+    100%{max-width: 525px;}
+    
+}
+@keyframes motions2 {
+    0% {max-width: 482px;}
+    33.33%{max-width: 452px;}
+    66.33%{max-width: 482px;}
+    100%{max-width: 452px;}
+    
+}
+.container .firstc .elements .img1{
+    max-width: 600px;
+    right: 0;
+    position: absolute;
+    animation-name: motions;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-delay: 0.5s;
+    transition: all 0.3s ease-in-out;
+
+}
+.container .firstc .elements .img2{
+    max-width: 525px;
+    right: 0;
+    position: absolute;
+    animation-name: motions1;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    transition: all 0.3s ease-in-out;
+
+}
+.container .firstc .elements .img3{
+    position: absolute;
+    max-width: 452px;
+    right: 0;
+    animation-name: motions2;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    transition: all 0.3s ease-in-out;
+}
+.container .firstc .blur_ele{
+    position: relative;
+    left: 10%;
+    top: 17px;
+    width: 80%;
+    background-color: #ffffff7d;
+    border-radius: 25px;
+    backdrop-filter: blur(3px);
+    padding: 0px 0 228px 0px;
+}
+.container .firstc .blur_ele h1{
+    display: block;
+    padding: 78px;
+    padding-top: 81px;
+    width: 576px;
+    font-size: 44px;
+    font-family: lora;
+    padding-bottom: 25px;
+    animation-name: texts;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    transition: display 0.3s;
+}
+.container .firstc .blur_ele h1::selection{
+    color: white;
+    background: #488949;
+} 
+.container .firstc .blur_ele h1 span{
+    color:#488949;
+    animation-name: texts;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    transition: display 0.3s;
+}
+@keyframes texts {
+
+    0% {color:#00000000; }
+    100%{color: black;}
+    
+}
+@keyframes textss {
+
+    0% {color:#00000000; }
+    50%{color:#00000000;
+    }
+    100%{color: black;}
+    
+}
+.container .firstc .blur_ele p{
+    padding: 78px;
+    width: 574px;
+    font-size: 21px;
+    padding-top: 0;
+    font-family: 'Open Sans', sans-serif;
+    animation-name: textss;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    transition: display 0.6s;
+}
+.container .firstc .blur_ele p::selection{
+    color: white;
+    background: #488949;
+} 
+.container .sec .secf p::selection{
+    color: white;
+    background: #488949;
+} 
+.container .thirds .thirdss p::selection{
+    color: white;
+    background: #488949;
+}
+.container .firstc .small_c{
+    position: relative;
+    top: -106px;
+    left: 13%;
+
+    width: 42%;
+    display: flex;
+    z-index: 1;
+}
+.container .firstc .small_c .fc{
+    position: relative;
+    width: 243px;
+    margin-right: 20px;
+    height: 227px;
+    background-color: #488949;
+    border-radius:10px ;
+    animation-name: bloc;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    transition: top 0.4s;
+}
+
+.container .firstc .small_c .fc p{
+    padding: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+  
+}
+.container .firstc .small_c .fc button{
+    padding: 9px;
+    border: none;
+    width: 108px;
+    color: #488949;
+    border-radius: 6px;
+    font-family: lora;
+    float: right;
+    background-color: #e9efc0;
+    margin-right: 14px;
+    transition: 0.7s ease;
+}
+.container .firstc .small_c .fc button:hover{
+    background-color: #82bc74;
+   color: #e9efc0;
+   width: 185px;
+
+}
+
+@keyframes bloc {
+
+    0% { top: -76px;}
+
+    100%{top: 0;}
+}
+
+/* ------------------second div or section --------------------- */
+.container .sec{
+    padding-top: 55px;
+    display: flex;
+    width: 100%;
+}
+.container .sec .secf{
+width: 50%;
+
+}
+.container .sec .secf h1{
+    display: block;
+    padding: 78px;
+    padding-top: 81px;
+    width: 573px;
+    font-size: 33px;
+    font-family: lora;
+    padding-bottom: 25px;
+    animation-name: texts;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    transition: display 0.3s;
+}
+.container .sec .secf h1::selection{
+    color: white;
+    background: #488949;
+} 
+.container .sec .secf h1 span{
+    color: #488949;
+    font-size: 42px;
+}
+.container .sec .secf p{
+    padding-left: 76px;
+    padding-top: 2px;
+    width: 450px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.container .sec .secf button{
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    width: 131px;
+    color: #488949;
+    font-size: 16px;
+    border-radius: 6px;
+    font-family: lora;
+    float: right;
+    background-color: #e9efc0;
+    margin-right: 131px;
+    transition: all 0.7s;
+}
+.container .sec .secf button a{
+    text-decoration: none;
+    color: #488949;
+}
+.container .sec .secf button:hover{
+    background-color: #488949;
+    color: #E9EFC0;
+    width: 185px;
+}
+.container .sec .secs{
+    width: 50%;
+    text-align-last: center;
+}
+.container .sec .secs img{
+    padding-top: 17px;
+    width: 551px;
+}
+
+/* ---------------------------this the third section ------------------------ */
+
+.container .thirds{
+    padding-top: 84px;
+    display: flex;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.container .thirds .thirdsf{
+    text-align-last: center;
+    width: 50%;
+}
+.container .thirds .thirdsf img{
+    padding-top: 17px;
+    width: 551px;
+}
+.container .thirds .thirdss{
+    width: 50%;
+}
+.container .thirds .thirdss h1{
+    display: block;
+    padding: 78px;
+    padding-top: 81px;
+    width: 546px;
+    font-size: 33px;
+    font-family: lora;
+    padding-bottom: 25px;
+}
+.container .thirds .thirdss h1::selection{
+    color: white;
+    background: #488949;
+} 
+.container .thirds .thirdss h1 span{
+    color: #488949;
+    font-size: 42px;
+}
+.container .thirds .thirdss p{
+    padding-left: 76px;
+    padding-top: 2px;
+    width: 450px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.container .thirds .thirdss button{
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    width: 131px;
+    color: #488949;
+    font-size: 16px;
+    border-radius: 6px;
+    font-family: lora;
+    float: right;
+    background-color: #e9efc0;
+    margin-right: 131px;
+    transition: all 0.7s;
+}
+
+.container .thirds .thirdss button:hover{
+    background-color: #488949;
+    color: #E9EFC0;
+
+    width: 185px;
+}
+footer{
+
+    display: flex;
+    width: 100%;
+    background-color: #488949;
+    height: 250px;
+    box-shadow: 0 0 12px 0px;
+}
+footer .f{
+width: 30%;
+}
+footer .f .socio{
+    padding-top: 20px;
+    display: flex;
+
+    padding-left: 25px;
+}
+footer .f .socio img{
+    width: 24px;
+    opacity: 0.70;
+    margin-left: 13px;
+    transition: all 0.5s ease;
+}
+footer .f .socio img:hover{
+    opacity: 1;
+  
+
+}
+footer .s{
+width:40%
+}
+footer .s p{
+    position: relative;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    color: #E9EFC0;
+    padding-top: 210px;
+    place-content: center;
+}
+footer .t{
+width: 30%;
+}
+footer .t menu{
+    padding: 20px;
+    padding-left: 153px;
+}
+footer .t menu li{
+    list-style-type: none;
+    padding: 7px;
+}
+footer .t menu li a{
+    font-family: lora;
+       text-decoration:none;
+       color: #E9EFC0;padding: 5px;
+}
+footer .t menu li a:hover{
+    color: #B4E197;
+}
+/* -----------------------------Media Query------------------------------------------- */
+@media (max-width: 480px){ 
+
+
+.container .firstc header .lhead {
+
+    width: 100%;
+
+}
+.container .firstc header .rhead {
+    display: none;
+}
+.container .firstc header .lhead {
+    display: flex;
+    padding: 33px;
+    width: 100%;
+    place-content: center;
+
+    align-content: center;
+
+}
+.container .firstc .blur_ele h1 {
+    padding: 44px;
+    padding-bottom: 22px;
+    width: 100%;
+
+}
+.container .firstc .blur_ele p {
+      padding: 0px 62px 52px 48px;
+    width: 100%;
+    font-size: 18px;
+}
+.container .firstc .small_c {
+   
+    left: 2%;
+    width: 100%;
+}
+.container .sec {
+
+    display: block;
+
+}
+.container .sec .secf {
+    width: 100%;
+}
+.container .sec .secs {
+    width: 100%;
+}
+.container .sec .secf h1 {
+    display: block;
+    padding: 49px;
+
+    width: 100%;
+
+}
+.container .sec .secf p {
+    padding-left: 49px;
+    padding-top: 0px;
+    width: 91%;}
+    .container .sec .secf button {
+        padding: 12px;
+        margin-top: 20px;
+        float: left;
+        margin-left: 49px;
+    }
+    .container .sec .secs img {
+        padding-top: 17px;
+        width: 100%;
+    }
+    .container .thirds {
+        padding-top: 0px;
+        display: block;
+   
+    }
+    .container .thirds .thirdsf {
+        width: 100%;
+    }
+    .container .thirds .thirdsf img {
+     
+        width: 100%;
+    }
+    .container .thirds .thirdss {
+        width: 100%;
+    }
+    .container .thirds .thirdss h1 {
+        padding: 49px;
+        padding-bottom: 24px;
+        width: 100%;
+    }
+    .container .thirds .thirdss p {
+    padding: 49px;
+    padding-bottom: 9px;
+    padding-top: 0px;
+    width: 100%;
+
+}
+.container .thirds .thirdss button {
+    margin-top: 20px;
+    margin-left: 49px;
+float: none;
+
+}
+footer .f .socio img {
+    width: 19px;
+   
+    margin-left: 8px;
+
+}
+footer .s p {
+    font-size: 10px;}
+    footer .t menu {
+        padding: 10px;
+        padding-left: 0px;
+    }
+ 
+}

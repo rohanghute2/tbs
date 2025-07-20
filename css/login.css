@@ -1,0 +1,96 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 May, 2023, 4:29:17 PM
+    Author     : AnkushCp
+*/
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #488949; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #82bc74; 
+}
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+  .alert {
+    padding: 11px;
+    background-color: #f44336;
+    color: white;
+    position: relative;
+    /* top: -309px; */
+    z-index: 2;
+    opacity: 1;
+    border: 2px solid;
+    transition: opacity 0.6s;
+    margin-bottom: 0px;
+  }
+  
+  .alert.success {background-color: #1ebd49;}
+  .alert.info {background-color: #2196F3;}
+  .alert.warning {background-color: #ee6e24}
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+  .loading{
+    position: relative;
+    top: 189px;
+    border-bottom: 5px solid black;
+    width: 100%;
+}
+.loading img{
+    max-width: 9%;
+    margin-bottom: -11px;
+    animation-name: skate;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    transition: all 0.5s ease-in-out;
+}
+@keyframes skate {
+    0%{
+        translate: 0px;
+    }
+    100%{
+        translate: 1331px;
+    }
+}

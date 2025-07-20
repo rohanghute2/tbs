@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* Reset styles */
+        body, table, td, th { margin: 0; padding: 0; }
+        table { border-collapse: collapse; }
+        img { display: block; border: 0; }
+
+        /* Typography */
+        body { font-family: 'Raleway', sans-serif; }
+        h1, h4, p { margin: 0; }
+        h1 { font-size: 24px; }
+        h4 { font-size: 12px; font-weight: 100; }
+        p { font-size: 16px; }
+
+        /* Layout and positioning */
+        .container { width: 100%; max-width: 600px; margin: 0 auto; padding: 20px; }
+        .header { text-align: center; margin-bottom: 20px; }
+        .reciept { border: 1px solid #eee; padding: 20px; }
+        .fline { margin-bottom: 10px; }
+        .butt { text-align: center; margin-top: 20px; }
+        #printButton { padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer; }
+        .bookc { text-align: center; margin-top: 40px; }
+        .boc { position: relative; }
+        .img1 { position: absolute; top: 0; left: 0; width: 200px; }
+        .img2 { position: absolute; top: 0; right: 0; width: 100px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="images/logo.png" alt="logo">
+        </div>
+        <div class="reciept">
+            <div class="fline">
+                <h1>Name: </h1>
+                <p><?= $username ?></p>
+            </div>
+            <!-- Other fields of the receipt follow -->
+            <!-- Use the same structure and add other details -->
+        </div>
+        <div class="butt">
+            <button onclick="printPage()" id="printButton">Print</button>
+        </div>
+        <div class="bookc">
+            <div class="boc">
+                <img src="images/bookc.png" class="img1" alt="">
+                <img src="images/icon.gif" class="img2" alt="">
+            </div>
+        </div>
+        <h4>All rights are reserved by Turf-Booking.in @2023</h4>
+    </div>
+</body>
+</html>
